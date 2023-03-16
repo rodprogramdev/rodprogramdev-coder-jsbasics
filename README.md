@@ -23,6 +23,11 @@
 - Run-time environment errors
 - Logic errors
 
+## ADD GOOGLE FONT
+
+> https://fonts.google.com/specimen/Titan+One
+
+
 # Lets create our first.js file
 
 > Computer Science is related to data that is going to be meaningful to the computer. 
