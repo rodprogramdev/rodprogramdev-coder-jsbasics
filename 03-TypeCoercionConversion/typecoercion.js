@@ -81,3 +81,6 @@ implicit();
 let d = parseInt('Rod', 10);
 console.log(d); // This should produce a NaN - NOT A NUMBER - this is not an error its telling us that the value is NOT A NUMBER
 
+
+let e = isNaN(d);
+console.log(e);
