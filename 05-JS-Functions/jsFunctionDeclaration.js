@@ -80,7 +80,28 @@ function storeInVariable2(){
     return 'Hello!! I\m a function stored inside of a variable displayed through a return statement inside of a function!';
 }
 
+
 let b = storeInVariable2();
 console.log(b);
 
 
+/**RETURN STATEMENT */
+// If the js function reaches the return statement this will stop executing the code instructions inside of the code block.
+
+
+function calculateVat(amount){
+    let result = amount * .12;
+    return result;
+}
+
+let vat = calculateVat(1000);
+console.log(vat);
+
+
+function sayHello(name){
+    console.log('Hello ' + name + '!');
+}
+
+sayHello('Rod');
+sayHello('Jash');
+sayHello('Digs');
