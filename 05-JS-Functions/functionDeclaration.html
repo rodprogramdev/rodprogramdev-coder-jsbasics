@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Function Declaration</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Function Declaration</h1>
-    <script src="jsFunctionDeclaration.js">
+    <!-- <<script src="jsFunctionDeclaration.js"> -->
+    <script>
+      function introduce() {
+        // declare a function name
+        let name; // declare a variable
+        console.log("------------------------");
+        name = prompt("Enter your First and Last name here:");
 
+        console.log("Hello " + name);
+      }
+
+      introduce(); // Invoke this funciton inside of the browser.
     </script>
-    
-</body>
+  </body>
 </html>

@@ -31,7 +31,7 @@ function declareName(parameter1, parameter2){ // declare a function name
 } 
 */
 
-
+/*
 function introduce(){ // declare a function name
     let name; // declare a variable
     console.log('------------------------');
@@ -41,6 +41,8 @@ function introduce(){ // declare a function name
     
 } 
 
+introduce(); // Invoke this funciton inside of the browser runtime environment.
+*/
 // FUNCTION INVOCATION 
 /*
 1. When an even occurs such as a user clicks a button.
@@ -48,4 +50,16 @@ function introduce(){ // declare a function name
 3. IIFE > Doing self invoked or automatically invoking itself. 
 */
 
-introduce();
+
+// {} The Curly brackets are like containers for instructions 
+// {} These are called CODE BLOCKS > It contains the body of the function 
+// {} Curly brackets can contain Javascript statements or expressions.
+function sayHello(){
+    console.log('------------------------');
+    console.log('-----------------');
+    console.log('Hello Everyone!! I\m Rod!');
+    console.log('----------------------');
+    console.log('------------------------------');
+}
+
+sayHello(); // Invoke and use the function inside of the node runtime environment
