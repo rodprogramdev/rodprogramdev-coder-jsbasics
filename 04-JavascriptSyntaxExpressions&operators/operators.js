@@ -9,7 +9,7 @@
 // 5. String Operators '' or "" double quotes
 // 6. Function invocation operators ()
 // 7. Logical Operators Logical and: && , Logical or: ||
-// 8. Member Accsory operator . 
+// 8. Member Accessory operator . // Methods , Properties 
 // 9. ARRAY ELEMENT ACCESS OPERATOR [] square bracket
 // 10. Code Block Operators {}
 

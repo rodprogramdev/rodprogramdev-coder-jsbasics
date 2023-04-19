@@ -40,7 +40,7 @@
 
 # DECLARING AND INITIALIZING A VARIABLES
 
-# Objectives:
+## Objectives:
 
 - Learn the difference between declaring a variable and initializing a variable.
 - Learn the different rules or naming conventions when declaring a variable. 
@@ -48,17 +48,24 @@
 
 # TYPE COERCION AND TYPE CONVERSION
 
-# Objectives:
+## Objectives:
 
 - Learn the difference between implicit and explicit coercion. 
 
  
 # JS EXPRESSIONS, OPERATORS, AND OPERANCDS.
 
-# Objectives:
+## Objectives:
 
 - Learn what are some of the examples of a statement and expression in JavaScript.
 
 - Learn different operators used in JavaScript.
 
 - Be able to identify the difference between an operator and an operand. 
+
+# JS Functions
+
+## Objectives:
+
+- Learn how to declare a JavaScript function. 
+- Learn to identify a Javascript expression. 
