@@ -62,4 +62,25 @@ function sayHello(){
     console.log('------------------------------');
 }
 
-sayHello(); // Invoke and use the function inside of the node runtime environment
+//sayHello(); // Invoke and use the function inside of the node runtime environment
+
+
+function storeInVariable(){
+    console.log('Hello!! I\m a function stored inside of a variable displayed through a console.log inside of a function!!');
+}
+
+let a = storeInVariable(); // store a function inside of a variable declaration
+
+
+a // Stored a function and invoke it by using the variable name declaration that we have. 
+
+
+
+function storeInVariable2(){
+    return 'Hello!! I\m a function stored inside of a variable displayed through a return statement inside of a function!';
+}
+
+let b = storeInVariable2();
+console.log(b);
+
+
