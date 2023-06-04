@@ -47,10 +47,22 @@ const array_name = [arrayItem1, arrayItem2];
 //     'John', 
 //     'Jose'];
 
-
 // console.log(ListOfNames);
 
 
+// let numericValues = [2, 4, 6, 8, 10];
+
+// console.log(numericValues);
+// console.log(numericValues[0]);
+// console.log(numericValues[1]);
+// console.log(numericValues[2]);
+// console.log(numericValues[3]);
+// console.log(numericValues[4]);
+
+
+const trees = new Array('Pine Tree', 'Coconut Tree', 'Mango Tree'); // the Array Constructor will create an object 
+
+console.log(typeof trees);
 
 
 
