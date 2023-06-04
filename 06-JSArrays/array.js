@@ -66,14 +66,18 @@ const array_name = [arrayItem1, arrayItem2];
 
 
 
-let numericValues = [2, 4, 6, 8, 10];
+// let numericValues = [2, 4, 6, 8, 10];
 
-console.log(numericValues[4]);
+// console.log(numericValues[4]);
 
-numericValues[4] = 12;
-console.log(numericValues);
+// numericValues[4] = 12;
+// console.log(numericValues);
 
-console.log(typeof numericValues);
+// console.log(typeof numericValues);
+
+let mixDataTypes = [9, 'Alex', false];
+
+console.log(mixDataTypes);
 
 
 

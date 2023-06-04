@@ -13,6 +13,11 @@
     <br>
     <h2>Assigning a value to an array</h2>
     <p id="demo2"></p>
+
+    <h2>Accessing Arrays Using the Square Brackets(Array access operators) </h2>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
     <script>
         const fruits= [];
         fruits[0]='Apple';
@@ -27,6 +32,14 @@
         trees[2] = 'Malunggay Tree';
         document.getElementById('demo2').innerHTML = trees;
 
+
+        /*****************************/
+
+        const favoriteHero = ['Naruto','Spiderman','Yusuke', 'Roronoa Zorro'];
+
+        document.getElementById('demo3').innerHTML = favoriteHero;
+        document.getElementById('demo4').innerHTML = favoriteHero[0] = 'Superman';
+        document.getElementById('demo5').innerHTML = favoriteHero;
 
     </script>
 </body>
