@@ -75,6 +75,7 @@ const array_name = [arrayItem1, arrayItem2];
 
 // console.log(typeof numericValues);
 
+/*
 let mixDataTypes = [9, 'Alex', false, 'Rod'];
 
 let a;
@@ -84,8 +85,30 @@ console.log(mixDataTypes); // We should get the list of mixed data types
 console.log(mixDataTypes[4]); // We should get the value of undefined
 
 console.log(mixDataTypes.length);
+*/
+/*Create a new element in the array*/
+
+// let baseTen = [10,20,30,40,50]; // 60 70 80 90 100
+
+// baseTen[10] = 100;
+
+// console.log(baseTen);
+// console.log(baseTen.length);
 
 
+let baseTen = [10,20,30,40,50]; // 60 70 80 90 100
+
+// baseTen[10] = 100;
+
+baseTen.push(100);
+baseTen.pop();
+baseTen.pop();
+baseTen.pop();
+baseTen.pop();
+baseTen.pop();
+
+console.log(baseTen);
+console.log(baseTen.length);
 
 
 
