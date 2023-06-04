@@ -69,3 +69,19 @@
 
 - Learn how to declare a JavaScript function. 
 - Learn to identify a Javascript expression. 
+
+
+# JS Arrays
+
+- Introduction to arrays
+- Why use Arrays?
+- Declaraing a variable with an array literal. 
+- Creating an empty array and then provide the elements of an array.
+- Using the JavaScript keyword new
+- Accessing the values of an array using console.log()
+- Changing and converting array to string
+- Accesing the full array elements.
+- Difference Between Arrays and Objects
+
+
+

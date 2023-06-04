@@ -7,20 +7,24 @@
     <title>Array Example</title>
 </head>
 <body>
-    <h1>Js Arrays Examples Assignging a value to an array</h1>
+    <h1>Js Arrays Examples </h1>
+
     <p id="demo1"></p>
     <br>
+    <h2>Assigning a value to an array</h2>
     <p id="demo2"></p>
     <script>
         const fruits= [];
         fruits[0]='Apple';
         fruits[1]='Banana';
         fruits[2]='Cherry';
+        fruits[2]='Grapes';
         document.getElementById('demo1').innerHTML = fruits;
 
         /*NOTE: We can use the 'new' keyword to assign values to an array. */
 
         const trees = new Array('Pine Tree', 'Coconut Tree', 'Mango Tree');
+        trees[2] = 'Malunggay Tree';
         document.getElementById('demo2').innerHTML = trees;
 
 

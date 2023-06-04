@@ -60,9 +60,24 @@ const array_name = [arrayItem1, arrayItem2];
 // console.log(numericValues[4]);
 
 
-const trees = new Array('Pine Tree', 'Coconut Tree', 'Mango Tree'); // the Array Constructor will create an object 
+// const trees = new Array('Pine Tree', 'Coconut Tree', 'Mango Tree'); // the Array Constructor will create an object 
 
-console.log(typeof trees);
+// console.log(typeof trees);
+
+
+
+let numericValues = [2, 4, 6, 8, 10];
+
+console.log(numericValues[4]);
+
+numericValues[4] = 12;
+console.log(numericValues);
+
+console.log(typeof numericValues);
+
+
+
+
 
 
 
