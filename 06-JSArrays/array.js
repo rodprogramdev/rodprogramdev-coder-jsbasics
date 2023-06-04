@@ -75,9 +75,17 @@ const array_name = [arrayItem1, arrayItem2];
 
 // console.log(typeof numericValues);
 
-let mixDataTypes = [9, 'Alex', false];
+let mixDataTypes = [9, 'Alex', false, 'Rod'];
 
-console.log(mixDataTypes);
+let a;
+
+console.log(a); // We should get an undefined
+console.log(mixDataTypes); // We should get the list of mixed data types
+console.log(mixDataTypes[4]); // We should get the value of undefined
+
+console.log(mixDataTypes.length);
+
+
 
 
 
