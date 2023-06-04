@@ -36,6 +36,22 @@ console.log(stringValues);
 
 */
 
+// ARRAY LITERALS
+
+/*
+const array_name = [arrayItem1, arrayItem2];
+*/
+
+// const ListOfNames = [
+//     'James',
+//     'John', 
+//     'Jose'];
+
+
+// console.log(ListOfNames);
+
+
+
 
 
 
