@@ -83,5 +83,13 @@
 - Accesing the full array elements.
 - Difference Between Arrays and Objects
 
+# Conditional or Decision Statements
+
+- **if** statement
+- **else** statement
+- **else if** statement
+- **switch** statement
+- **ternary** operator
+
 
 
