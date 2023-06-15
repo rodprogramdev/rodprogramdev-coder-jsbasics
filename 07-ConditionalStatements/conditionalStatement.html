@@ -11,10 +11,28 @@
 
     <h2>If Statement</h2>
     <p id="demo1">Display "Good afternoon" if the hour is less than 18:00</p>
+
+
+    <hr>
+    <h2>If statement to play audio in our Web Document</h2>
+    <audio id="sound">
+        <source src="SampleAudio.mp3" type="audio/ogg">
+    </audio>
+    <p id="dontPlay"></p>
     <script>
         if(new Date().getHours() < 18){
             document.getElementById('demo1').innerHTML ="Good afternoon";
         }
+    </script>
+    <script>
+        let sound = document.getElementById('sound');
+        let play = false;
+        if(play == true){
+            setInterval(()=> sound.play(), 3000);
+        }else{
+            document.getElementById('dontPlay').innerHTML ="Your NOT allowed to play this sound.";
+        }
+
     </script>
 </body>
 </html>
