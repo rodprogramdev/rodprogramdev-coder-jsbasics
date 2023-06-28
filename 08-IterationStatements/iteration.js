@@ -25,6 +25,12 @@ Expression 3 > Increment or increase the value each time the code block in the l
 
 
 // Shorthand version for a for loop for the first expression.
-for(i=0; i<10; i++){
-    console.log(i);
-}
+// for(i=0; i<10; i++){
+//     console.log(i);
+// }
+
+
+// let array = [10, 20, 30, 40, 50, 60]
+// for(i=0; i < array.length; i++){
+//     console.log(array[i]);
+// }
