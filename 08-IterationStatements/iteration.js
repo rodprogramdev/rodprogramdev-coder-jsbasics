@@ -34,3 +34,27 @@ Expression 3 > Increment or increase the value each time the code block in the l
 // for(i=0; i < array.length; i++){
 //     console.log(array[i]);
 // }
+
+
+// for (let b = 0; b < 20; b++) {
+//     console.log(b);
+// }
+
+// let x = 1;
+
+// while(x<10){
+//     console.log(x++);
+// }
+
+
+let x = 1;
+
+while(x<10){
+    console.log(x++);
+    // if(x==7){
+    //     break;
+    // }
+
+    if(x==7) break;
+}
+
